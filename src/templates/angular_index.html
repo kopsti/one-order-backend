@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A modern web application designed to help.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>One Order</title>
+    <base href="/">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- <link rel="icon" sizes="192x192" href="images/android-desktop.png"> -->
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="App2U">
+    <!-- <link rel="apple-touch-icon-precompose" href="images/ios-desktop.png"> -->
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <!-- <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png"> -->
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="icon" type="image/x-icon" href="{% static 'ang/favicon.ico' %}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="{% static 'ang/styles.css' %}" rel="stylesheet"/>
+</head>
+
+<body>
+<app-root></app-root>
+<script type="text/javascript" src="{% static 'ang/runtime.js' %}"></script>
+<script type="text/javascript" src="{% static 'ang/polyfills.js' %}"></script>
+<script type="text/javascript" src="{% static 'ang/main.js' %}"></script>
+<script type="text/javascript" src="{% static 'ang/polyfills-es5.js' %}"></script>
+<script type="text/javascript" src="{% static 'ang/5.js' %}"></script>
+</body>
+
+</html>

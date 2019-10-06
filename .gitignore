@@ -191,7 +191,7 @@ fabric.properties
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# *.iml
+ *.iml
 # modules.xml
 # .idea/misc.xml
 # *.ipr
@@ -273,3 +273,8 @@ venv.bak/
 pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/venv,python,django,intellij
+
+/src/logs/
+/src/run.sh
+/src/orders/migrations/
+.idea/*
